@@ -1,0 +1,36 @@
+section.iva-section {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+  max-width: 75rem;
+  .iva-item {
+    .iva-content {}
+    .iva-date {
+      min-width: none;
+    }
+  }
+}
+@media (min-width: 768px) {
+  section.iva-section {
+    min-height: 100vh;
+    .iva-item {
+      .iva-date {
+        min-width: 18rem;
+      }
+    }
+  }
+}
+@media (min-width: 992px) {
+  section.iva-section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+}
+
+.date-table td:first-child {
+  width: 300px;
+  vertical-align: text-top;
+}
+
+.programme-date-table td:first-child {
+  width: 120px;
+}
